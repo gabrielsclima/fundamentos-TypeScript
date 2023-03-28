@@ -137,5 +137,12 @@ greeting("José");
 greeting("Pedro", "Sir");
 
 //interfaces
+interface MathFunctionParams{
+    n1: number,
+    n2: number,
+}
 
+function sumNumbers(nums: MathFunctionParams){
+    return nums.n1
+}
 

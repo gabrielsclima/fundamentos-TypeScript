@@ -67,3 +67,6 @@ function greeting(name, greet) {
 }
 greeting("José");
 greeting("Pedro", "Sir");
+function sumNumbers(nums) {
+    return nums.n1;
+}
